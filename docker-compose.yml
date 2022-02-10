@@ -2,7 +2,7 @@ version: '3.1'
 services:
   bookmedik:
     container_name: bookmedik
-    image: javiutrera01/bookmedik:v1
+    image: javiutrera01/bookmedik:v1_2
     restart: always
     environment:
       DATABASE_NAME: bookmedik
