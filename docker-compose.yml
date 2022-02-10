@@ -7,7 +7,7 @@ services:
     environment:
       DATABASE_NAME: bookmedik
       DATABASE_USER: bookmedik
-      DATABASE_PASSWORD: password
+      DATABASE_PASSWORD: bookmedik
       DATABASE_HOST: server_mariadb
     ports:
       - 8081:80
@@ -20,7 +20,7 @@ services:
     environment:
       MYSQL_DATABASE: bookmedik
       MYSQL_USER: bookmedik
-      MYSQL_PASSWORD: bookmedik
+      MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: root
     volumes:
       - mariadb_data:/var/lib/mysql
